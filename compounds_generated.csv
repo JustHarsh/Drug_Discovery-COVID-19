@@ -1,0 +1,11 @@
+Name,Mol
+Compound1,O=C(O)CC(=O)NCC(c1ccccc1)C(O)CC(Cc1ccccc1)NC(=O)OC1CCCCC1
+Compound2,CNC(=O)C1CCCC1C(=O)NC(Cc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)O
+Compound3,CC(C)(C)NC(=O)C1CCCC1C(=O)NC(Cc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)NC
+Compound4,CNC(=O)C(Cc1ccccc1)NC(=O)C(Cc1ccccc1)NC(=O)C(Cc1ccccc1)NC(=O)C(CC(N)=O)NC(=O)c1ccccc1
+Compound5,CNS(=O)(=O)c1ccccc1C(=O)CCc1ccccc1NC(=O)OC1COC2OCCC12
+Compound6,CCCCNCC(=O)CCc1ccccc1
+Compound7,C(=O)CCc1ccccc1NC(=O)CCc1ccccc1C(=O)NCCc1ccccc1C(=O)NCCc1ccccc1C(=O)NCCc1ccccc1C(=O)
+Compound8,CCCCCCCCNC(=O)CCCCC(=O)
+Compound9,PC1CCCC1C(=O)OC1COC2OCCC12
+Compound10,Cc1ccccc1C(=O)NCCc1ccccc1C(=O)NCCc1ccccc1C(=O)NCCc1ccccc1C(=O)
