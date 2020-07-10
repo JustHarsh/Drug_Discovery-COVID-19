@@ -36,7 +36,7 @@ A "Drug" in Biochemistry terms is called a [Ligand](https://en.wikipedia.org/wik
 # Approach 
 Since this project was run in Google Colab, you don't need to install anything locally. All you need is a computer, an active internet connection and lots patience, dedication and perseverance. Just open a Colab Notebook, and follow whatever's written in the **COVID-19.ipynb**. You should start by uninstalling Tensorflow 2.x and install Tensorflow 1.x since GPT2 works very smoothly with TF 1.x. 
 
-Copy the generated SMILES to a file in your local system. Later, go to the **Smiles_Testing.ipynb** notebook and visualize the generated SMILES. Honestly speaking, more than half the SMILES generated will have errors in them. That is why I am suggesting you to first copy them to a .txt file and then copy the final SMILES to a .csv file. I used [DataWarrior](http://www.openmolecules.org/datawarrior/download.html) mainly to convert a .csv file to a .sdf file to test in PyRx. 
+Copy the generated SMILES to a file in your local system. Later, go to the **Smiles_Testing.ipynb** notebook and visualize the generated SMILES. Honestly speaking, more than half the SMILES generated will have errors in them. That is why I suggest you to first copy them to a .txt file and then copy the final SMILES to a .csv file. I used [DataWarrior](http://www.openmolecules.org/datawarrior/download.html) mainly to convert a .csv file to a .sdf file to test in PyRx. 
 
 After that, I used the .sdf file for docking with 6LU7. After achieving the results, They were converted to a .csv file. You can find the results in **Final_Results.csv**. 
 
@@ -60,5 +60,3 @@ My name is **Harsh Darji** and I am from India. I've been **interseted in AI sin
 You can contact me at harshdarji750@gmail.com to have a little chat about the project. 
 
 And thanks for checking everything out!! 
-
-
