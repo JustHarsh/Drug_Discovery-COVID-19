@@ -55,7 +55,7 @@ It was then, that I realized that I can use a [pre-trained model](https://www.yo
 **TLDR:** I failed MANY times before achieving some meaningful results. 
 
 # About Me
-I am **Harsh Darji** from India. I've been **interseted in AI for quite few years now**. I went on YouTube and some courses online and learned all this. I am **completley self-taught**. **My country's detoriating condition due to the Novel Corona Virus was my biggest motivation to start working on this project in the first place.** I love helping people and I thought that this was the perfect opportunity for me to contribute. 
+I am **Harsh Darji** from India. I've been **interseted in AI for quite few years now**. I went on YouTube and some courses online and learned all this. I am **completley self-taught**. **My country's detoriating condition due to the Novel Corona Virus was my biggest motivation to start working on this project in the first place.** I love helping people and I thought that this was the perfect opportunity for me to contribute for the better. 
 
 You can contact me at harshdarji750@gmail.com to have a little chat about the project. 
 
