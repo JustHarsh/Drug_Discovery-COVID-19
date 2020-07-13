@@ -17,9 +17,9 @@ So...I approached this problem in a rather unorthodox way. Normally, you would d
 * Final_Results.csv - here you will find the final results i.e. the binding affinity of all the drugs. 
 
 # Prerequisites
-In my opinion, AI's biggest application is Healthcare. Computaional Drug Design is one area in Healthcare where AI can have its biggest impacts. 
+In my opinion, AI's biggest application is Healthcare. Computaional Drug Design is one area in Healthcare where AI can have one of its biggest impacts. 
 
-All drugs can be represented in the form of SMILES. SMILES in Molecular Biology stands for **S**implified **M**olecular-**i**nput **l**ine-**E**ntry **S**ystem. It is just a way to represent compounds in text format. So, our goal for the project should be to find the best drug that can work on the Novel Corona Virus [Protease](https://en.wikipedia.org/wiki/Protease). 
+All drugs can be represented in the form of SMILES. SMILES in Molecular Biology stands for **S**implified **M**olecular-**I**nput **L**ine-**E**ntry **S**ystem. It is just a way to represent compounds in text format. So, our goal for the project should be to find the best drug that can work on the Novel Corona Virus [Protease](https://en.wikipedia.org/wiki/Protease). 
 
 Recently, the [Protein Data Bank (PDB)](https://www.rcsb.org/), released the protease of the Novel Corona Virus - [6LU7](https://www.rcsb.org/structure/6LU7). 
 
