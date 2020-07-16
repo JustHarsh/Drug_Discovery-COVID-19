@@ -16,8 +16,10 @@ from keras.layers import Flatten
 
 #-------------------------------------------------------------------#
 
-os.chdir(desired_working_directory) # Change working directory
-print(os.getcwd())
+# Change working directory
+
+# os.chdir(desired_working_directory) 
+# print(os.getcwd())
 
 #-------------------------------------------------------------------#
 
