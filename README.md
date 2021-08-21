@@ -33,6 +33,11 @@ A "Drug" in Biochemistry terms is called a [Ligand](https://en.wikipedia.org/wik
 # Requirements 
 * None!!!!!
 
+# Data 
+I am going to be totally honest here because I don't want my project to be taken down. I tried using the ![ChemBl Dataset](https://www.ebi.ac.uk/chembl/) for my project. However, I was short on compute power and time and therefore ended up using the results from another extraordinary repository that worked on the same project as mine. You can check it out here ![here](https://github.com/mattroconnor/deep_learning_coronavirus_cure). Now why was this a good idea? Well, Matt (person who owns the repo) generated those drugs from the ChemBl and the Moses dataset. So essentially, I did the work of improving on his results (if you think critically). My honest recommendation would be to use the ChemBl dataset if you want to work it out from scratch; else you might as well use my or Matt's results to get your project working. 
+
+So officially, I give Matt **ALL the credits** for my data. 
+
 # Approach 
 Since this project was run in Google Colab, you don't need to install anything locally. All you need is a computer, an active internet connection and lots patience, dedication and perseverance. Just open a Colab Notebook, and follow whatever's written in the **COVID-19.ipynb**. You should start by uninstalling Tensorflow 2.x and install Tensorflow 1.x since GPT2 works very smoothly with TF 1.x. 
 
