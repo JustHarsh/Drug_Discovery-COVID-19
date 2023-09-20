@@ -31,10 +31,13 @@ A "Drug" in Biochemistry terms is called a [Ligand](https://en.wikipedia.org/wik
 - *credits go to Wikipedia. Image can be found [here](https://en.wikipedia.org/wiki/Docking_(molecular))*
 
 # Requirements 
-* None!!!!!
+* Tensorflow 1.x
+* GPT-2
+* PyRx
+* DataWarrior
 
 # Data 
-I am going to be totally honest here because I don't want my project to be taken down. I tried using the [ChemBl Dataset](https://www.ebi.ac.uk/chembl/) for my project. However, I was short on compute power and time and therefore ended up using the results from another extraordinary repository that worked on the same project as mine. You can check it out [here](https://github.com/mattroconnor/deep_learning_coronavirus_cure). Now why was this a good idea? Well, Matt (person who owns the repo) generated those drugs from the ChemBl and the Moses dataset. So essentially, I did the work of improving on his results (if you think critically). My honest recommendation would be to use the ChemBl dataset if you want to work it out from scratch; else you might as well use my or Matt's results to get your project working. 
+I tried using the [ChemBl Dataset](https://www.ebi.ac.uk/chembl/) for my project. However, I was short on compute power and time and therefore ended up using the results from another extraordinary repository that worked on the same project as mine. You can check it out [here](https://github.com/mattroconnor/deep_learning_coronavirus_cure). Now why was this a good idea? Well, Matt (person who owns the repo) generated those drugs from the ChemBl and the Moses dataset. So essentially, I did the work of improving on his results (if you think critically). My honest recommendation would be to use the ChemBl dataset if you want to work it out from scratch; else you might as well use my or Matt's results to get your project working. 
 
 So officially, I give Matt R O'Connor **ALL the credits** for the training data used in the project. 
 
@@ -50,18 +53,5 @@ To find how to perform docking in PyRx watch this [tutorial](https://www.youtube
 # What's next?
 These drugs should be verified by an expert in the field of research to verify the synthetic feasibilty of the drugs. They should then be pushed for clinical trials and then be used for treating patients. 
 
-# But...do you really think it was that easy? 
-I have worked on this project for a month. It intially started as a vacation project but things turned out very cruely. I first started by just running someone else's repository who solved a similar problem. And I was very happy because I had achieved approximately 60% of the objectives. The very next day when I was generating some compounds I found out that the model had lost all its training knowloedge and it generated absolutely bizarre strings of text. I was heart-broken because I had already spent nearly 15 days on the project. 
-
-Then I decided to do it myself. I came up with an LSTM Network but I realized that training was way to slow both on Colab and my local system. My runtime disconnected everytime despite of taking all the necessary precautions and my data was lost. You can imagine how much pain it can cause by thinking of training your model 15 times and still not making it to the end. 
-
-It was then, that I realized that I can use a [pre-trained model](https://www.youtube.com/watch?v=Ui1KbmutX0k&t) and treat this problem as a text-generation problem. The results I obtained might not be the best but **more training time can drastically improve the results.**
-
-**TLDR:** I failed MANY times before achieving some meaningful results. 
-
-# About Me
-I am **Harsh Darji** from India. I've been **studying in AI for quite few years now**. I went on YouTube and some courses online and learned all this. I am **completley self-taught**. I saw my **country's detoriating condition due to the Novel Corona Virus; and that was my biggest motivation to start working on this project.** I love helping people and I thought that this was the perfect opportunity for me to contribute for the better. 
-
-You can contact me at harshdarji750@gmail.com to have a little chat about the project. 
-
-And thanks for checking everything out!! 
+# Challenges
+I failed about 6 times before I finally solved this problem. My failures were due to a lack of clarity about where to get a good dataset from, what technique I should use to discover new drugs that could potentially cure something like COVID-19 and how to comprehend the results I got. After multiple unsuccessful attempts of solving this problem from scratch on my local computer, I realized that I can use a [pre-trained model](https://www.youtube.com/watch?v=Ui1KbmutX0k&t) and treat this problem as a text-generation problem. The results I obtained were fairly conclusive, and the best for the training time and computational power I had available running on Google Colab.
